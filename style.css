@@ -139,11 +139,11 @@ section .cta-button:hover {
     position: fixed;
     width: 100%;
     z-index: 999;
-    padding: 30px 0;
+    padding: 15px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
-    background: linear-gradient(45deg, #6a11cb, #2575fc); /* Gradient blue background */
-    color: white; /* White text color for readability */
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: white;
 }
 
 .navbar.sticky {
@@ -585,14 +585,16 @@ section .cta-button:hover {
 .skills .skills-content .column {
     width: calc(50% - 30px); /* Two columns layout */
     margin-bottom: 30px; /* Adds spacing between columns */
+    color: black;
 }
 
 /* Left Column Text Styling */
 .skills .skills-content .left .text {
-    font-size: 22px; /* Slightly larger text */
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 900;
     margin-bottom: 15px;
-    color: #000000; /* Darker text for contrast */
+    color: #000000;
+    text-align: -webkit-center;
 }
 
 .skills .skills-content .left p {
